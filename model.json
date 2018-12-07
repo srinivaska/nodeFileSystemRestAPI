@@ -1,4 +1,1 @@
-{
-  "1": { "firstname": "Jack", "lastname": "Davis", "age": 25, "id": 1 },
-  "2": { "firstname": "Peter", "lastname": "Thomas", "age": 17, "id": 2 }
-}
+{"1":{"firstname":"Jack","lastname":"Davis","age":25,"id":1},"2":{"firstname":"Peter","lastname":"Thomas","age":17,"id":2}}

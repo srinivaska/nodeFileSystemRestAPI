@@ -1,5 +1,6 @@
 const express = require('express');
 const controller = require('./controller');
+//const responseService = require('./responseUtil');
 const router = express.Router();
 
 router.get('/api/customers', async(req, res) => {
@@ -8,6 +9,8 @@ router.get('/api/customers', async(req, res) => {
         res.send({data:JSON.parse(data)});
       }
       catch(e){
+
+      //  responseService.errorHandler(e, "something wrong while reading data", res);
         res.send({
           status: 'error',
           message:"something wrong while reading data"
